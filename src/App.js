@@ -16,12 +16,12 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/*<Route path="/isekai" element={<Isekai />} />
+            <Route path="/isekai" element={<Isekai />} />
           <Route path="/comics" element={<Comic />} />
           <Route path="/isekai/project1" element={<Project1 />} />
           <Route path="/tav" element={<TAV />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/upload" element={<ContactUs />} /> */}
+          <Route path="/upload" element={<ContactUs />} />
           </Routes>
         </Router>
       </Suspense>
